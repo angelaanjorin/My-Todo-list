@@ -70,9 +70,9 @@ ul li{
     font-size: 17px;
     padding: 10px 30px;
     user-select: none;
-    width: 80%;
+    width: 85%;
     min-height: 50px;
-    margin:0 auto;
+    margin:8px auto;
     border-radius: 10px;
     cursor: pointer;
     position: relative;

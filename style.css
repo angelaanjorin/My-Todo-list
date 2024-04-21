@@ -12,7 +12,7 @@ body{
 .container{
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(120deg, #A5BE00, #2d4b0e);
+    background: linear-gradient(120deg, rgb(194, 187, 187), rgb(22, 21, 21));
     padding: 10px;
 }
 

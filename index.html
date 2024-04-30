@@ -3,13 +3,31 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="style.css">
+  <title>My Todo List</title>
+  <link rel="stylesheet" href="./style.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
-  <input type="text">
-  <ul></ul>
+  <div class="container">
+    <div class="todo-app">
+      <h1>My Todo List</h1>
+      <form class="row">
+        <input 
+        type="text" 
+        placeholder="Add your todo"
+        id="inputBox" />
+        <input type="date" id="dateInput">
+      </form>
+      <button type="submit" id="addBtn">Add</button>
+        <!-- End of New Todo -->
+
+        <!-- Todo List -->
+      <div class="list" id="todo-list">
+        <ul></ul>
+        <!-- End of Todo List -->
+      </div>
+    </div>
+  </div>
   <script src="todo.js"></script>
 </body>
 </html>
